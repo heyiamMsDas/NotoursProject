@@ -10,6 +10,8 @@ Dark green: #28b485
 $primary-color:#55c57a;
 $primary-color-light:#7ed56f97;
 $primary-color-dark:#28b46792; 
+$color-gray:#777;
+$color-white:#fff;
 
 *{
     margin: 0;
@@ -23,7 +25,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height:1.7;
-    color: #777;
+    color: $color-gray;
 
 
 
@@ -55,7 +57,7 @@ height: 35px;
 }
 
 .heading-primary {
- color: #fff;
+ color: $color-white;
 }
 
 .heading-primary-main {
@@ -147,8 +149,8 @@ height: 35px;
 
 
 .btn-white {
-    background-color: #fff;
-    color: #777;
+    background-color:$color-white;
+    color: $color-gray;
 }
 
 @keyframes moveInUp{
